@@ -12,7 +12,7 @@ As Scuber expands its fleet and its services, we need to develop a way to model 
 
 * A driver can be initialized with a name, and a string representing the day that he joined Scuber.  Add the following methods and attributes to the class:
 
-+ `startDate` — returns a JavaScript Date object.  You may to reference some documentation on how dates work in JavaScript.
++ `startDate` — returns a JavaScript Date object.  You'll need to use your Googling skills to reference some documentation on how dates work in JavaScript!
 
 + `yearsExperienceFromBeginningOf` — takes an argument of a year and returns the number of years since the driver's startDate
 
