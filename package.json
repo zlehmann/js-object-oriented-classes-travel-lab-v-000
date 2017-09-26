@@ -1,5 +1,5 @@
 {
-  "name": "javascript-strings-lab",
+  "name": "js-object-oriented-classes-travel-lab",
   "version": "0.2.0",
   "description": "JavaScript Classes in JS Classes Travel for Learn.co",
   "main": "index.js",
@@ -15,8 +15,9 @@
     "learn",
     "flatiron school",
     "javascript",
-    "strings",
-    "code-along"
+    "object-orientation",
+    "lab",
+    "class"
   ],
   "author": "@gj",
   "license": "SEE LICENSE IN LICENSE.md",
