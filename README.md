@@ -14,7 +14,7 @@ As Scuber expands its fleet and its services, we need to develop a way to model 
 
 + `startDate` — returns a JavaScript Date object.  You'll need to use your Googling skills to reference some documentation on how dates work in JavaScript!
 
-+ `yearsExperienceFromBeginningOf` — takes an argument of a year and returns the number of years since the driver's startDate
++ `yearsExperienceFromBeginningOf` — takes an argument of a year and returns the number of years since the driver's startDate. (hint: when creating a new date object, you may want to refer to [MDN's documentation on JS's Date object, specifically how to get a date at the beginning of the year](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date))
 
 **Route**
 
