@@ -6,7 +6,9 @@ class Driver {
     this.startDate = new Date(this.join_day)
   }
 
-  yearsExperienceFromBeginningOf (start_year) {
-
+  yearsExperienceFromBeginningOf (year) {
+    let exp = (year - this.startDate)/1000;
+    exp /= (60*60*24);
+    return Math.abs(Math.round(exp/365.25));
   }
 }
