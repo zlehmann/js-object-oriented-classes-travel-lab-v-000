@@ -31,8 +31,8 @@ class Route {
     ];
 
     let vDiff = Math.abs(this.beginningLocation['vertical'] - this.endingLocation['vertical']);
-    let hDiff = Math.abs(eastWest.indexOf(this.beginningLocation['horizontal'])+1) -
-    (eastWest.indexOf(this.endingLocation['horizontal'])+1);
+    let hDiff = Math.abs((eastWest.indexOf(this.beginningLocation['horizontal'])+1) -
+    (eastWest.indexOf(this.endingLocation['horizontal'])+1));
 
     return vDiff + hDiff;
   }
