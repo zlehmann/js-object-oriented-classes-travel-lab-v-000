@@ -6,7 +6,8 @@ class Driver {
   }
 
   startDate(join_day) {
-    return Date(join_day);
+    let start_date = new Date(join_day);
+    return start_date;
   }
 
   yearsExperienceFromBeginningOf (start_year) {
