@@ -39,7 +39,13 @@ class Route {
 
   estimatedTime() {
     let result = 0;
-    result = this.blocksTravelled()/3;
+    let blocks = this.blocksTravelled();
+    if (blocks >= 3) {
+      result = blocks/3;
+    } else {
+      result = blocks/2;
+    }
+    
     return result;
   }
 }
