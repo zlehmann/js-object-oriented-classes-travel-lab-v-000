@@ -40,10 +40,10 @@ class Route {
   estimatedTime(peak) {
     let result = 0;
     let blocks = this.blocksTravelled();
-    if (peak === false) {
-      result = blocks/3;
-    } else {
+    if (peak === true) {
       result = blocks/2;
+    } else {
+      result = blocks/3;
     }
 
     return result;
