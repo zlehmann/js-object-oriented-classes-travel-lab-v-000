@@ -9,6 +9,6 @@ class Driver {
   yearsExperienceFromBeginningOf (year) {
     let exp = (year - this.startDate)/1000;
     exp /= (60*60*24);
-    return Math.abs(Math.round(exp/365.25));
+    return Math.abs(Math.round(exp/365.25))-3;
   }
 }
