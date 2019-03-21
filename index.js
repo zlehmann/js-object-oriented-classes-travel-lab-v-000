@@ -30,9 +30,9 @@ class Route {
       '5th Avenue'
     ];
 
-    let vDiff = Math.abs(this.beginningLocation['vertical'] - this.endingLocation['vertical']);
-    let hDiff = Math.abs(eastWest.findIndex(this.beginningLocation['horizontal'])+1) -
-    (eastWest.findIndex(this.endingLocation['horizontal'])+1);
+    let vDiff = Math.abs(this.beginningLocation[vertical] - this.endingLocation[vertical]);
+    let hDiff = Math.abs(eastWest.findIndex(this.beginningLocation[horizontal])+1) -
+    (eastWest.findIndex(this.endingLocation[horizontal])+1);
 
     return vDiff + hDiff;
   }
