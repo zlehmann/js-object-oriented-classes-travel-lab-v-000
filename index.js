@@ -37,10 +37,10 @@ class Route {
     return vDiff + hDiff;
   }
 
-  estimatedTime() {
+  estimatedTime(peak) {
     let result = 0;
     let blocks = this.blocksTravelled();
-    if (blocks >= 3) {
+    if (peak === false) {
       result = blocks/3;
     } else {
       result = blocks/2;
