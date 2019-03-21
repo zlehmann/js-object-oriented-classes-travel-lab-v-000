@@ -45,7 +45,7 @@ class Route {
     } else {
       result = blocks/2;
     }
-    
+
     return result;
   }
 }
