@@ -36,4 +36,10 @@ class Route {
 
     return vDiff + hDiff;
   }
+
+  estimatedTime() {
+    let result = 0;
+    result = this.blocksTravelled()/3;
+    return result;
+  }
 }
