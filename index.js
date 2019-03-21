@@ -15,7 +15,7 @@ class Driver {
 
 class Route {
   constructor(beginningLocation, endingLocation) {
-    this.beginningLocation = beginningLocation
+    this.beginningLocation = beginningLocation 
     this.endingLocation = endingLocation
   }
 
@@ -29,5 +29,9 @@ class Route {
       'Madison Avenue',
       '5th Avenue'
     ];
+
+    let vDiff = Math.abs(this.beginningLocation['vertical'] - this.endingLocation['vertical']);
+    let hDiff = Math.abs(eastWest.findIndex(this.beginningLocation['horizontal'])+1) - 
+    (eastWest.findIndex(this.endingLocation['horizontal'])+1);
   }
 }
